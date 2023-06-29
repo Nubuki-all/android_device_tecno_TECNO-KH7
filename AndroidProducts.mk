@@ -11,4 +11,4 @@ PRODUCT_MAKEFILES := \
 COMMON_LUNCH_CHOICES := \
     omni_TECNO-KH7-user \
     omni_TECNO-KH7-userdebug \
-    omni_TECNO-KH7-eng
+    omni_TECNO-KH7
