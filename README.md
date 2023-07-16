@@ -1,4 +1,4 @@
-# Android device tree for TECNO TECNO KH7 (TECNO-KH7)
+# Android device tree for TECNO TECNO KH7 (TECNO_KH7)
 
 ```
 #
