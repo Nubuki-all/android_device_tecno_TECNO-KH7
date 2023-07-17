@@ -22,7 +22,7 @@ $(call inherit-product-if-exists, vendor/omni/config/common.mk)
 $(call inherit-product, device/tecno/TECNO_KH7/device.mk)
 
 PRODUCT_DEVICE := TECNO_KH7
-PRODUCT_NAME := omni_TECNO_KH7
+PRODUCT_NAME := twrp_TECNO_KH7
 PRODUCT_BRAND := TECNO
 PRODUCT_MODEL := TECNO KH7
 PRODUCT_MANUFACTURER := tecno
