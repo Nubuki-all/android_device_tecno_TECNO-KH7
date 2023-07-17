@@ -107,8 +107,12 @@ PLATFORM_VERSION := 16.1.0
 
 # TWRP Configuration
 TW_THEME := portrait_hdpi
-TW_EXTRA_LANGUAGES := true
+# TW_EXTRA_LANGUAGES := true
+TW_EXTRA_LANGUAGES := false
 TW_SCREEN_BLANK_ON_BOOT := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
-TW_USE_TOOLBOX := true
+# TW_USE_TOOLBOX := true
+TW_USE_TOOLBOX := false
 TW_INCLUDE_REPACKTOOLS := true
+TW_EXCLUDE_NANO := true 
+TW_EXCLUDE_BASH := true
