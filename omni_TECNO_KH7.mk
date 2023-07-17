@@ -9,8 +9,14 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common Omni stuff.
-$(call inherit-product, vendor/omni/config/common.mk)
+# Inherit from TWRP-common Stuff, if building TWRP.
+$(call inherit-product-if-exists, vendor/twrp/config/common.mk)
+
+# Inherit from PBRP-common Stuff, if building PBRP.
+$(call inherit-product-if-exists, vendor/pb/config/common.mk)
+
+# Inherit from OMNI-common Stuff, if building from below Android 10.
+$(call inherit-product-if-exists, vendor/omni/config/common.mk)
 
 # Inherit from TECNO_KH7 device
 $(call inherit-product, device/tecno/TECNO_KH7/device.mk)
