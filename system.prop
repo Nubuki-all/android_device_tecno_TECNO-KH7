@@ -1,0 +1,10 @@
+ro.secure=0
+ro.adb.secure=0
+ro.debuggable=1
+ro.boot.dynamic_partitions=true
+persist.sys.isUsbOtgEnabled=true
+ro.sys.usb.mtp.whql.enable=0
+ro.sys.usb.storage.type=mtp
+persist.sys.usb.config=adb,mtp
+sys.usb.config=adb,mtp
+ro.mediatek.platform=MT6769
